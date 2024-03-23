@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>My Hoja De Vida</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 100px;
+        }
+    </style>
+</head>
+<body style="background-color: #bceeff;"> 
+  <!--  -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Mi Hoja De Vida</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index2.html">Formulario de Contacto
+                  </a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contacto
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://web.whatsapp.com/">WhatsApp</a></li>
+                    <li><a class="dropdown-item" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Correo</a></li>                
+                  </ul>
+                      <hr class="dropdown-divider">
+                    </li>
+                   
+                  </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div style="text-align: center;">
+        <h1 style="font-weight: bold;">Mi Hoja De Vida</h1>
+    </div>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="card mb-0" style="max-width: 900px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="imagen.webp" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Perfil Profesional:</h5>
+                    <p class="card-text">Soy un apasionado programador con más de 5 años de experiencia en el desarrollo de software. Me especializo en el diseño y la implementación de soluciones innovadoras que resuelven problemas complejos y mejoran la eficiencia de los procesos. Mi enfoque se centra en la creación de aplicaciones web y móviles escalables, utilizando tecnologías modernas y prácticas de desarrollo ágil.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Experiencia Laboral:
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Desarrollador de Software Senior en ABC Tech Solutions (2019 - Presente)</strong> 
+                      <li>Lideré equipos de desarrollo en la creación de sistemas de gestión de inventario personalizados para clientes corporativos.</li>
+                      <li>Implementé arquitecturas de microservicios utilizando contenedores Docker y orquestación con Kubernetes.</li>
+                      <li>Colaboré estrechamente con equipos de diseño y gestión de productos para garantizar la entrega oportuna y de alta calidad de los proyectos.</li><br>
+                      <strong>Desarrollador Web en XYZ Software (2017 - 2019)</strong>
+                          <li>Desarrollé aplicaciones web de alto rendimiento utilizando tecnologías como React.js, Node.js y MongoDB.</li>
+                          <li>Participé en el diseño y la implementación de APIs RESTful para integrar sistemas de terceros con nuestras plataformas.</li>
+                          <li>Mantuve y optimicé sistemas heredados para mejorar su rendimiento y escalabilidad.</li>
+                       
+                      </li>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Educación:
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <li>Licenciatura en Ingeniería de Sistemas, Universidad Nacional de Colombia (2013 - 2017) </li>  <br>          
+                     <strong>Habilidades Técnicas:</strong>
+                    <li>Lenguajes de programación: JavaScript (Node.js, React.js), Python, Java
+                    <li> Bases de datos: MongoDB, MySQL, PostgreSQL</li>
+                      <li> Herramientas y tecnologías: Git, Docker, Kubernetes, AWS, RESTful APIs
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 Idiomas:
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 
+<li>Español <strong>(nativo)</strong></li>
+<li>Inglés <strong>(intermedio)</strong></li>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Certificaciones:
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <li>Certificado en Desarrollo de Aplicaciones Web Full Stack (2018)
+                    </li>
+                    <li>Certificado en Desarrollo de Aplicaciones Móviles (2019)
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Pasatiempos:
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                
+                    <li>Leer libros de ciencia ficción y fantasía</li>
+                    <li>Hacer senderismo en la naturaleza</li>
+                    <li>Cocinar nuevas recetas y experimentar con ingredientes</li>
+                    <li>Jugar videojuegos de estrategia y aventura</li>
+                    <li>Aprender a tocar un instrumento musical</li>
+                 
+                  
+                </div>
+            </div>
+        </div>
+
+      <br>
+      <h1>Datos Personales</h1>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>Nombre:</strong> Edwin Camilo Peña García</li>
+        <li class="list-group-item"><strong>Cedula:</strong> 789456123</li>
+        <li class="list-group-item"><strong>Fecha de nacimiento:</strong> 15 de agosto de 1990</li>
+        <li class="list-group-item"><strong>Lugar de nacimiento:</strong> Bogotá, Colombia</li>
+        <li class="list-group-item"><strong>Estado civil: </strong>Soltero</li>
+        <li class="list-group-item"><strong>Dirección: </strong>Carrera 123 #456, Bogotá, Colombia</li>
+        <li class="list-group-item"><strong>Correo electrónico: </strong> ejemplo@gmail.com</li>
+        <li class="list-group-item"><strong>Teléfono: </strong>+57 123 456 7890</li>
+        <li class="list-group-item"><strong>Redes sociales:</strong> <a href="https://www.linkedin.com/in/ejemplo">LinkedIn</a>, <a href="https://twitter.com/ejemplo123">Twitter</a>, <a href="https://www.facebook.com/home.php">Facebook</a>, <a href="https://web.whatsapp.com/">Whatsapp</a></li>
+        <li class="list-group-item"><strong>Intereses:</strong> Viajar, tecnología, música, deportes, gastronomía</li>
+      </ul>
+      <br>
+      <div class="card">
+        <div class="card-header">
+          Contacto Unico.
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Contacto.</h5>
+          <p class="card-text">Si quieres contactarme, envíame un mensaje por <strong>WhatsApp</strong> al número +57 123 456 7890.</p>
+          <a href="https://web.whatsapp.com/" class="btn btn-primary">Whatsapp</a>
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="btn btn-primary">Correo</a>
+          <a href="https://www.linkedin.com/in/ejemplo" class="btn btn-primary">linkedin</a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Comentarios y Sugerencias</label>
+      </div>
+</body>
+</html>
